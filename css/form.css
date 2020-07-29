@@ -54,10 +54,10 @@
     border: 2px solid hsl(34, 100%, 50%);
 }
 
-/* .form__buttons {
+.form__buttons {
     display: flex;
     flex-direction: column;
-} */
+}
 
 .form__button {
     width: 100%;
