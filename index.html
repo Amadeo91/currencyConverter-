@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <title>Kantor</title>
+</head>
+
+<body class="body">
+    <div class="currencyCalculator">
+        <form class="form">
+            <fieldset class="form__fieldset">
+
+                <legend class="form__legend">Kantor</legend>
+
+                <label class="form__label">
+                    <span class="form__labelInfo">Kwota w zł:</span>
+                    <input class="form__labelText js-amount" type="number" name="value" min="0" step="any" required>
+                </label>
+
+                <label class="form__label">
+                    <p>
+                        <span class="form__labelInfo">Waluta:</span>
+                        <select class="form__currency js-currency" name="currency">
+                            <option class="js-EUR" value="EUR">EUR</option>
+                            <option class="js-USD" value="USD">USD</option>
+                        </select>
+                    </p>
+                </label>
+                <section class="form__buttons">
+                    <button class="form__button">Przelicz</button>
+                    <button class="form__button--reset js-reset" type="reset">Wyczyść</button>
+                </section>
+
+        </form>
+        <p class="amount__info">Otrzymasz <br><strong class="js-result">N/A</strong></p>
+        </fieldset>
+    </div>
+
+    <script src="/script/js.js"></script>
+
+</body>
+
+</html>

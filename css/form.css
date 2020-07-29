@@ -1,0 +1,104 @@
+.currencyCalculator {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-image: url(/img/bitcoin-1813503_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form__fieldset {
+    position: relative;
+    padding: 100px 50px 0;
+    margin-bottom: 10px;
+}
+
+.form__legend {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 80px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: white;
+    background-color: hsl(34, 100%, 50%);
+
+}
+
+.form__labelInfo {
+    display: inline-block;
+    width: 100%;
+    max-width: 100px;
+    margin-right: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.form__labelText {
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid hsl(34, 100%, 50%);
+}
+
+.form__currency {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid hsl(34, 100%, 50%);
+}
+
+.form__buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__button {
+    width: 100%;
+    margin: 50px auto 0;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(34, 100%, 50%);
+    transition: .2s;
+}
+
+.form__button--reset {
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(34, 100%, 50%);
+    transition: .2s;
+}
+
+.form__button:hover {
+    background-color: hsl(34, 100%, 55%);
+}
+
+.form__button--reset:hover {
+    background-color: hsl(34, 100%, 55%);
+}
+
+.form__button:active {
+    background-color: hsl(34, 100%, 60%);
+}
+
+.amount__info {
+    padding: 10px 5px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: hsl(34, 100%, 50%);
+}
